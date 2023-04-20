@@ -1,29 +1,39 @@
+/* --- General --- */
+
 main {
-  margin-top: 60px;
+  padding: 20px 0;
 }
 
-main h1 {
+section {
+  margin-bottom: 100px;
+}
+
+h1 {
+  margin: 0 0 30px 10px;
+}
+
+h2 {
   margin: 0 10px;
-  text-align: center;
-  font-family: "Amatic SC", cursive;
-  font-size: 65px;
+  border-bottom: 1px solid gray;
 }
 
-main h2 {
-  margin: 18px 0 12px 0;
-  border-bottom: 1px solid #5c4f41;
-  font-family: "Special Elite", cursive;
-  font-size: 24px;
+h3 {
+  margin: 12px 0;
+  border-bottom: 1px solid lightgray;
 }
 
-main h3 {
-  margin: 18px 0 12px 0;
-  border-bottom: 1px solid #5c4f41;
-  font-family: "Special Elite", cursive;
-  font-size: 18px;
+/* --- Groups & Items --- */
+
+.group {
+  display: flex;
+  flex-direction: row; /* or column */
 }
 
-main p {
-  font-family: "Roboto", sans-serif;
-  margin-top: 0;
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
 }
